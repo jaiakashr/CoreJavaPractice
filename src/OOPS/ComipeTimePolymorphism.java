@@ -1,5 +1,5 @@
 
-//Compile time polymorphism is also known as Method overloading
+//Compile time polymorphism is also known as Method overloading 
 //Same method name, but different parameter lists (number or type of parameters).
 
 
@@ -24,4 +24,31 @@ public class ComipeTimePolymorphism {
 		obj.display(40.5);
 		
 	}
+	
+	/*
+	
+	 //          (or use this without creating new class and you don't have to call object in main) 
+	//    this is another example both will work
+		static void display(double d) {
+			System.out.println("One");
+		}
+		
+		static void display(int a) {
+			System.out.println("Two");
+		}
+	
+	public static void main(String[] args) {
+		display(40);
+		display(40.5);
+		
+	}
+	
+	*/
+	
+	
+	
+	
+	
+	
+	
 }
