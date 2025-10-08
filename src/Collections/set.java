@@ -1,14 +1,14 @@
 package Collections;
 
-//mport java.util.HashSet;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
 public class set {
 	public static void main(String[] args) {
-		Set<Integer> num = new TreeSet<Integer>();
-//		Set<Integer> num = new HashSet<Integer>();
+		//Set<Integer> num = new TreeSet<Integer>();
+		Set<Integer> num = new HashSet<Integer>();
 
 		
 		num.add(45);
