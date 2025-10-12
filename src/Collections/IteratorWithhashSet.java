@@ -10,7 +10,7 @@ public class IteratorWithhashSet {
 		numbers.add(50);
 		numbers.add(60);
 		
-		Iterator<Integer> it = numbers.iterator();
+		var it = numbers.iterator();   // var makes the iterator declaration shorter, but the actual type is still Iterator<String>. 
 
 	        while (it.hasNext()) {
 	            int num = it.next();
