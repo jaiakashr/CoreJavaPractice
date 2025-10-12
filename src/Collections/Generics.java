@@ -21,5 +21,11 @@ public class Generics {
 		Box<String> strBox = new Box<>();
 		strBox.set("Akassh");
 		System.out.println(strBox.get());
+		
+//		T is a generic type parameter. It's like a placeholder for a data type.
+//
+//	    When you create a Box<String>, T becomes String.
+//	    When you create a Box<Integer>, T becomes Integer.
+
 	}
 }
