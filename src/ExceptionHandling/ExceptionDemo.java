@@ -34,7 +34,7 @@ public class ExceptionDemo {
 		try {
 			FileInputStream fs = new FileInputStream(file);
 		}catch(FileNotFoundException e) {
-			e.printStackTrace(); //printStackTrace() is used for show error details but its not stop program. its show error and move to next line
+			//e.printStackTrace(); //printStackTrace() is used for show error details but its not stop program. its show error and move to next line
 		}
 		System.out.println(c);
 		
