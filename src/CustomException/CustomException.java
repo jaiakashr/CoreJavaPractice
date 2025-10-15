@@ -1,4 +1,4 @@
-package ExceptionHandling;
+package CustomException;
 
 class AkashException extends Exception{
 	public AkashException(String string) {

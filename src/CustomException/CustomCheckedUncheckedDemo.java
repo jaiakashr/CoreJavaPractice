@@ -1,5 +1,5 @@
 // Custom Checked Exception
-package ExceptionHandling;
+package CustomException;
 
 class InvalidAgeException extends Exception {
     public InvalidAgeException(String message) {
