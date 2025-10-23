@@ -4,8 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 
 class bufferedreader {
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		try {
 			FileReader fr = new FileReader("Output.txt");
 			BufferedReader br = new BufferedReader(fr);
