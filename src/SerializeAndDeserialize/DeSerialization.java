@@ -14,6 +14,7 @@ public class DeSerialization {
             ois.close();
             fis.close();
 
+            
             System.out.println("✅ Object deserialized successfully!");
             System.out.println("Name: " + s.Name);
             System.out.println("Age: " + s.Age);
